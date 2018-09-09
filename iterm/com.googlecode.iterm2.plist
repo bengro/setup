@@ -1284,7 +1284,7 @@
 	<key>LoadPrefsFromCustomFolder</key>
 	<true/>
 	<key>NSNavLastRootDirectory</key>
-	<string>~/workspace/my-setup/iterm</string>
+	<string>~/workspace/setup/iterm</string>
 	<key>NSNavPanelExpandedSizeForOpenMode</key>
 	<string>{712, 448}</string>
 	<key>NSQuotedKeystrokeBinding</key>
@@ -1328,11 +1328,11 @@
 	<key>NSWindow Frame SessionsPreferences</key>
 	<string>269 126 606 469 0 0 1440 877 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>411 129 796 486 0 0 1440 877 </string>
+	<string>411 169 796 486 0 0 1440 877 </string>
 	<key>NSWindow Frame UKCrashReporter</key>
 	<string>99 293 592 584 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 425 650 452 0 0 1440 877 </string>
+	<string>0 0 1440 877 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>138 52 650 452 0 0 1440 877 </string>
 	<key>New Bookmarks</key>
@@ -1663,12 +1663,26 @@
 					<key>Text</key>
 					<string>b</string>
 				</dict>
+				<key>0x64-0x80000</key>
+				<dict>
+					<key>Action</key>
+					<integer>10</integer>
+					<key>Text</key>
+					<string>d</string>
+				</dict>
 				<key>0x66-0x80000</key>
 				<dict>
 					<key>Action</key>
 					<integer>10</integer>
 					<key>Text</key>
 					<string>f</string>
+				</dict>
+				<key>0x75-0x80000</key>
+				<dict>
+					<key>Action</key>
+					<integer>10</integer>
+					<key>Text</key>
+					<string>u</string>
 				</dict>
 				<key>0xf700-0x220000</key>
 				<dict>
@@ -1987,7 +2001,7 @@
 	<key>NoSyncInstallationId</key>
 	<string>A64FC469-2801-4908-BDED-08C22E89749B</string>
 	<key>NoSyncLastTipTime</key>
-	<real>556273963.97717202</real>
+	<real>558178190.37456203</real>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
@@ -2006,7 +2020,26 @@
 		<string>0004</string>
 		<string>0005</string>
 		<string>0006</string>
+		<string>0007</string>
+		<string>0008</string>
+		<string>0009</string>
+		<string>0010</string>
+		<string>0011</string>
+		<string>0012</string>
+		<string>0013</string>
+		<string>0014</string>
+		<string>0015</string>
+		<string>0016</string>
+		<string>0017</string>
+		<string>0018</string>
+		<string>0019</string>
+		<string>0020</string>
+		<string>0021</string>
 	</array>
+	<key>OnlyWhenMoreTabs</key>
+	<false/>
+	<key>PMPrintingExpandedStateForPrint2</key>
+	<false/>
 	<key>PointerActions</key>
 	<dict>
 		<key>Button,1,1,,</key>
@@ -2041,7 +2074,9 @@
 		</dict>
 	</dict>
 	<key>PrefsCustomFolder</key>
-	<string>/Users/bengro/workspace/my-setup/iterm</string>
+	<string>/Users/bengro/workspace/setup/iterm</string>
+	<key>Print In Black And White</key>
+	<true/>
 	<key>SUEnableAutomaticChecks</key>
 	<true/>
 	<key>SUFeedAlternateAppNameKey</key>
@@ -2051,11 +2086,13 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2018-08-15T17:54:43Z</date>
+	<date>2018-09-09T09:45:41Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>ShowFullScreenTabBar</key>
 	<false/>
+	<key>SplitPaneDimmingAmount</key>
+	<real>0.25876652644230769</real>
 	<key>UKCrashReporterLastCrashReportDate</key>
 	<real>1533684992</real>
 	<key>URLHandlersByGuid</key>
