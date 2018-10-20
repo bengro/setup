@@ -36,6 +36,7 @@ brew cask install \
     fly \
     java8 \
     java10 \
+    slack \
     virtualbox
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
