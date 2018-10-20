@@ -2,8 +2,8 @@
 
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-brew install lastpass-cli wget tree node kubectl terraform vim pwgen htop tig tmate ack direnv jq git
-brew cask install google-backup-and-sync intellij-idea google-chrome iterm2 flycut spectacle spotify evernote steam docker mysqlworkbench cyberduck fly java8 java10
+brew install lastpass-cli wget tree node kubectl terraform vim pwgen htop tig tmate ack direnv jq git watch
+brew cask install google-backup-and-sync intellij-idea google-chrome iterm3 flycut spectacle spotify evernote steam docker mysqlworkbench cyberduck fly java8 java10 virtualbox
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
