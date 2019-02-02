@@ -18,7 +18,8 @@ brew install \
     direnv \
     jq \
     git \
-    watch
+    watch \
+    diff-so-fancy
 
 brew cask install \
     google-backup-and-sync \
