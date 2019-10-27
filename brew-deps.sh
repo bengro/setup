@@ -35,10 +35,11 @@ brew cask install \
     mysqlworkbench \
     cyberduck \
     fly \
-    java8 \
     java10 \
     slack \
-    virtualbox
+    virtualbox \
+    slack \
+    whatsapp
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
