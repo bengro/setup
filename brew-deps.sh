@@ -3,11 +3,9 @@
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 brew install \
-    lastpass-cli \
     wget \
     tree \
     node \
-    kubectl \
     terraform \
     vim \
     pwgen \
@@ -19,7 +17,7 @@ brew install \
     jq \
     git \
     watch \
-    diff-so-fancy
+    tmux
 
 brew cask install \
     google-backup-and-sync \
@@ -29,17 +27,9 @@ brew cask install \
     flycut \
     spectacle \
     spotify \
-    evernote \
-    steam \
     docker \
-    mysqlworkbench \
-    cyberduck \
     fly \
     java10 \
     slack \
-    virtualbox \
-    slack \
     whatsapp
-
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
