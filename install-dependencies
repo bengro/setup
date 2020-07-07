@@ -17,19 +17,20 @@ brew install \
     jq \
     git \
     watch \
-    tmux
+    tmux \
+    bash
 
 brew cask install \
     google-backup-and-sync \
     intellij-idea \
     google-chrome \
-    iterm3 \
+    iterm2 \
     flycut \
     spectacle \
     spotify \
     docker \
     fly \
-    java10 \
     slack \
-    whatsapp
+    whatsapp \
+    zoomus
 
