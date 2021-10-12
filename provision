@@ -1,0 +1,35 @@
+#!/usr/bin/env bash
+
+set -e
+
+echo "Provisioning local workstation... 🚀"
+
+cwd="$(cd "$(dirname "$0")" && pwd)"
+
+if [[ $(xcode-select --print-path) == "/Library/Developer/CommandLineTools" ]]
+then
+    echo "Command Line Tools installed - skipping Xcode license agreement"
+else
+    sudo xcodebuild -license accept
+fi
+
+if [[ -z "$(command -v brew)" ]]
+then
+    /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+fi
+
+if [[ -z "$(command -v ansible)" ]]
+then
+    brew install ansible
+fi
+
+ansible-galaxy collection install community.general
+ansible-galaxy collection install geerlingguy.mac
+ansible-galaxy install elliotweiser.osx-command-line-tools
+ansible-galaxy install markosamuli.asdf
+
+ansible-playbook \
+    "$cwd/main.yml" \
+    --inventory "$cwd/inventory" \
+    --ask-become-pass \
+    $@

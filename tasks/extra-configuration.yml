@@ -1,0 +1,31 @@
+---
+- name: Configure pinentry-mac
+  lineinfile:
+    path: ~/.gnupg/gpg-agent.conf
+    create: yes
+    insertafter: EOF
+    regexp: "pinentry-program /usr/local/bin/pinentry-mac"
+    line: "pinentry-program /usr/local/bin/pinentry-mac"
+
+- name: Configure direnv
+  lineinfile:
+    path: ~/.zshrc
+    create: yes
+    insertafter: EOF
+    regexp: ".*direnv hook zsh"
+    line: 'eval "$(direnv hook zsh)"'
+
+- name: Configure zsh completions
+  blockinfile:
+    path: ~/.zshrc
+    backup: yes
+    create: yes
+    block: |
+      . $(brew --prefix asdf)/libexec/asdf.sh
+
+      if type brew &>/dev/null
+      then
+        FPATH="$(brew --prefix)/share/zsh/site-functions:${FPATH}"
+        autoload -Uz compinit
+        compinit
+      fi

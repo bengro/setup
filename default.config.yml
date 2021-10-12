@@ -1,0 +1,72 @@
+---
+downloads: ~/.ansible-downloads/
+
+dockitems_remove:
+  - Launchpad
+  - TV
+  - Podcasts
+  - "App Store"
+  - Mail
+  - Messages
+  - Maps
+  - Photos
+  - FaceTime
+  - Calendar
+  - Contacts
+  - Reminders
+  - Music
+  - News
+  - Keynote
+  - Numbers
+  - Pages
+
+dockitems_persist:
+  - name: "Visual Studio Code"
+    path: "/Applications/Visual Studio Code.app/"
+  - name: "Slack"
+    path: "/Applications/Slack.app/"
+  - name: "Google Chrome"
+    path: "/Applications/Google Chrome.app/"
+
+homebrew_installed_packages:
+  - git
+  - gpg
+  - pinentry-mac
+  - openssl
+  - wget
+  - ack
+  - ag
+  - zsh
+  - zsh-completions
+  - git
+  - jq
+  - direnv
+  - vim
+  - asdf
+  - cmake
+
+homebrew_taps:
+  - homebrew/core
+  - homebrew/cask
+
+homebrew_cask_appdir: /Applications
+homebrew_cask_apps:
+  - firefox
+  - google-chrome
+  - webstorm
+  - visual-studio-code
+  - docker
+  - slack
+  - 1password-cli
+  - 1password
+  - postico
+  - flycut
+  - spectacle
+
+opinionated_homebrew_cask_apps:
+  - iterm2
+  - shiftit
+
+npm_packages: []
+
+post_provision_tasks: ["tasks/extra-configuration.yml"]
