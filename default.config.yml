@@ -44,6 +44,7 @@ homebrew_installed_packages:
   - vim
   - asdf
   - cmake
+  - git-duet/tap/git-duet
 
 homebrew_taps:
   - homebrew/core
