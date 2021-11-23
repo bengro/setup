@@ -54,8 +54,8 @@ homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
   - firefox
   - google-chrome
-  - webstorm
   - visual-studio-code
+  - intellij-idea
   - docker
   - slack
   - 1password-cli
@@ -63,6 +63,7 @@ homebrew_cask_apps:
   - postico
   - flycut
   - spectacle
+  - notion
 
 opinionated_homebrew_cask_apps:
   - iterm2
