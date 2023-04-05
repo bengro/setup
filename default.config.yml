@@ -45,6 +45,7 @@ homebrew_installed_packages:
   - asdf
   - cmake
   - git-duet/tap/git-duet
+  - kubectx
 
 homebrew_taps:
   - homebrew/core
@@ -52,7 +53,6 @@ homebrew_taps:
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
-  - firefox
   - google-chrome
   - visual-studio-code
   - intellij-idea
@@ -60,14 +60,12 @@ homebrew_cask_apps:
   - slack
   - 1password-cli
   - 1password
-  - postico
   - flycut
-  - spectacle
-  - notion
+  - rectangle
+  - meetingbar
 
 opinionated_homebrew_cask_apps:
   - iterm2
-  - shiftit
 
 npm_packages: []
 
